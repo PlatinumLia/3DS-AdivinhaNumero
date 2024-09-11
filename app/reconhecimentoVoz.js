@@ -12,7 +12,7 @@ function onSpeak(e)
   {
     chute = e.results[0][0].transcript;
     exibeChute(chute);
-
+    verificaChuteValido(chute)
   }
 
 function exibeChute(chute) 
