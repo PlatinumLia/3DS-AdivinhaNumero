@@ -64,3 +64,11 @@ h3
     padding: 10px;
     margin: 10px;
 }
+
+h2
+{
+    font-size: 4em;
+    color: var(--branco);
+    font-family: var(--fonteTitulo);
+    text-shadow: 3px 3px 20px var(--cinzaEscuro);
+}
